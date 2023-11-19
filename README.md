@@ -50,7 +50,7 @@ En general los modelos presentan overfiting. De acuerdo a las ideas expresadas e
 
 Donde $AUC^1$ corresponde a la métrica de los datos originales (**resultados del notebook 03**), $AUC^2$ a los datos aumentados con *wp* tanto en la región central de la clase 0 como en la región por fuera del centro en la clase 1 (**resultados del notebook 04**), y $AUC^3$ corresponde a los datos aumentados solo con *wp* para la región central de la clase 0 (**resultados del notebook 05**).
 
-Estos resultados nos muestras que con la estrategia de *wp* se mejora el *score* solo en los modelos A, B, C para $AUC^2$ y el modelo F para $AUC^3$ (respecto a $AUC^1$ y $AUC^2$ simultáneamente). Sin embargo, estos resultados no superan el *score* del modelo E, el cual obtuvo el mejor desempeño de acuerdo a la métrica $\mathbf{AUC^1=0.937}$. Los resultados de las iteraciones de este modelo en 50 épocas y tamaño de batch de 32 se muestran en la Figura 2 y 3.
+Estos resultados nos muestras que con la estrategia de *wp* se mejora el *score* solo en los modelos A, B, C para $AUC^2$ y el modelo F para $AUC^3$ (respecto a $AUC^1$ y $AUC^2$ simultáneamente). Sin embargo, estos resultados no superan el *score* del modelo E, el cual obtuvo el mejor desempeño de acuerdo a la métrica $\mathbf{AUC^1=0.937}$. Los resultados de las iteraciones de este modelo en 50 épocas y tamaño de batch de 32 se muestran en la Figura 2. La Figura 3 muestra la matriz de confusión y la respectiva curva ROC.
 
 ![image](https://github.com/DanielMartinez0/Proyecto_Deteccion_histopatologica_del_cancer/assets/79658767/89c31cda-61b0-4339-b4bc-8f13a130ad3b)
 
