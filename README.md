@@ -62,6 +62,7 @@ Estos resultados nos muestras que con la estrategia de *wp* se mejora el *score*
 Algunas ideas para continuar mejorando el *score* podrían ser aumento de color, normalización de la tinción o alineación de dominios con GAN (*Generative Adversarial Networks*)  [8].
 
 ### VIDEO 
+[![Alt text](https://img.youtube.com/vi/4UgukbY_Dpc/0.jpg)](https://www.youtube.com/watch?v=4UgukbY_Dpc)
 
 ### CONCLUSIONES
 - Se obtuvo un AUC de 0.937 con el Modelo-E correspondiente a la implementación de *transfer learning* del modelo *Xception*, superando una implementación análoga con los modelos *Resnet50* e I*nceptionV3*.
