@@ -1,7 +1,6 @@
 ## **PROYECTO: DETECCIÓN HISTOPATOLÓGICA DEL CANCER**
 ### Fundamentos de Deep Learning - 2023-2
-
-*Daniel ~H. ~Martínez ~S. - UdeA * \
+*Daniel ~H. ~Martínez ~S. - UdeA* 
 dhumberto.martinez@udea.edu.co
 
 ### CONTEXTO
