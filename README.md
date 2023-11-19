@@ -8,7 +8,8 @@ dhumberto.martinez@udea.edu.co
 
 La histopatología es el estudio y diagnóstico de una enfermedad mediante el examen microscópico de una biopsia que se procesa y se fija en un portaobjetos de vidrio. Para visualizar diferentes componentes del tejido, las secciones se tiñen con tintes con el objetivo de revelar los componentes celulares. Los patólogos han utilizado la tinción con hematoxilina-eosina (H&E) durante más de 100 años [1-3]. 
 
-![Alt text](image-5.png)
+![image](https://github.com/DanielMartinez0/Proyecto_Deteccion_histopatologica_del_cancer/assets/79658767/f47192f2-6201-4daf-994f-1b81d013ee7c)
+
 ###### Figura 1. Imagenes de histopatología digitalizada, a) muestras pertenecientes a la clase 1 (con cáncer en la región central), b) muestras pertenecientes a la clase 0 (sin cáncer en la región central), c) selección de la región central para la clase 1 y d) *white-padding* para la región central de la clase 0. 
 
 ### OBJETIVO
@@ -52,10 +53,12 @@ Donde $AUC^1$ corresponde a la métrica de los datos originales (**resultados de
 
 Estos resultados nos muestras que con la estrategia de *wp* se mejora el *score* solo en los modelos A, B, C para $AUC^2$ y el modelo F para $AUC^3$ (respecto a $AUC^1$ y $AUC^2$ simultáneamente). Sin embargo, estos resultados no superan el *score* del modelo E, el cual obtuvo el mejor desempeño de acuerdo a la métrica $\mathbf{AUC^1=0.937}$. Los resultados de las iteraciones de este modelo en 50 épocas y tamaño de batch de 32 se muestran en la Figura 2 y 3.
 
-![Alt text](image-6.png)
+![image](https://github.com/DanielMartinez0/Proyecto_Deteccion_histopatologica_del_cancer/assets/79658767/89c31cda-61b0-4339-b4bc-8f13a130ad3b)
+
 ###### Figura 3. Comportamiento de diferentes métricas en función de las épocas del Modelo-E ( $AUC^1$ ).
 
-![Alt text](image-7.png)
+![image](https://github.com/DanielMartinez0/Proyecto_Deteccion_histopatologica_del_cancer/assets/79658767/983f3888-08a2-42a9-9ec8-4e93795e649b)
+
 ###### Figura 2. Matriz de confusión y curva ROC del Modelo-E ( $AUC^1$ ).
 Algunas ideas para continuar mejorando el *score* podrían ser aumento de color, normalización de la tinción o alineación de dominios con GAN (*Generative Adversarial Networks*)  [8].
 
