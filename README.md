@@ -23,7 +23,7 @@ En este proyecto la métrica de validación utilizada fue el **AUC** (*Area unde
 Para entender esto es importante saber que los **falsos negativos** (muestras con cáncer detectadas como negativas) y **los falsos positivos** (muestras sin cáncer detectadas como positivas), son muestras que se clasificaron **incorrectamente**. Por el contrario, los **verdaderos negativos** (muestras sin cáncer detectadas como negativas) y los **verdaderos positivos** (muestras con cáncer detectadas como positivas) son muestras que se clasificaron correctamente. Esta información se cuantifica en la **matriz de confusión**.
 
 ### NOTEBOOKS
-•	[01– Exploración de datos](note_books/01_Exploración_de_datos.ipynb "01– Exploración de datos.ipynb"):  Se estudia el número de imágenes y clases, luego se selecciona una muestra de 5400 imágenes localizada en la carpeta [data](data " datos de entrenamiento - 5400 imágenes") con el fin de facilitar su análisis y posterior entrenamiento de diferentes modelos.
+•	[01– Exploración de datos](note_books/01_Exploración_de_datos.ipynb "01– Exploración de datos.ipynb"):  Se estudia el número de imágenes y clases, luego se selecciona una muestra de 5400 imágenes localizada en la carpeta [data](data " datos de entrenamiento - 5400 imágenes") con el fin de facilitar su análisis y el posterior entrenamiento de diferentes modelos.
 
 •	[02 – Estudio de la métrica AUC](note_books/02_Estudio_Métrica_AUC.ipynb "02 – Estudio de la métrica AUC.ipynb"): Se separan de los datos `train`, `val` y `test`. Se crea un modelo de prueba para evaluar el comportamiento de diferentes métricas de validación para un clasificador biclase como el AUC, el Recall, la matriz de confusión, entre otros.
 
