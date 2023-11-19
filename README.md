@@ -1,7 +1,7 @@
 ## **PROYECTO: DETECCIÓN HISTOPATOLÓGICA DEL CANCER**
 ### Fundamentos de Deep Learning - 2023-2
 
-$ \mathcal{Daniel ~H. ~Martínez ~S. ~-~ UdeA} $ \
+*$ Daniel ~H. ~Martínez ~S. ~-~ UdeA $* \
 dhumberto.martinez@udea.edu.co
 
 ### CONTEXTO
@@ -65,7 +65,7 @@ Algunas ideas para continuar mejorando el *score* podrían ser aumento de color,
 ### VIDEO 
 
 ### CONCLUSIONES
-- Se obtuvo un AUC de 0.937 con el Modelo-E correspondiente a la implementación de transfer learning del modelo *Xception*, superando una implementación análoga con los modelos *Resnet50* e I*nceptionV3*.
+- Se obtuvo un AUC de 0.937 con el Modelo-E correspondiente a la implementación de *transfer learning* del modelo *Xception*, superando una implementación análoga con los modelos *Resnet50* e I*nceptionV3*.
 - La metodología implementada de aumento de datos, tuvo mejor desempeño en la variante de *White-padding* a ambas clases, pero no superaron el *score* del modelo-E utilizando los datos originales.
 
 
