@@ -9,7 +9,7 @@ La histopatología es el estudio y diagnóstico de una enfermedad mediante el ex
 
 ![image](https://github.com/DanielMartinez0/Proyecto_Deteccion_histopatologica_del_cancer/assets/79658767/f47192f2-6201-4daf-994f-1b81d013ee7c)
 
-###### Figura 1. Imagenes de histopatología digitalizada, a) muestras pertenecientes a la clase 1 (con cáncer en la región central), b) muestras pertenecientes a la clase 0 (sin cáncer en la región central), c) selección de la región central para la clase 1 y d) *white-padding* para la región central de la clase 0. 
+###### Figura 1. Imagenes de histopatología digitalizada, a) muestras pertenecientes de la clase 1 (con cáncer en la región central), b) muestras pertenecientes de la clase 0 (sin cáncer en la región central), c) selección de la región central para la clase 1 y d) *white-padding* en la región central de la clase 0. 
 
 ### OBJETIVO
 Para este proyecto se ha seleccionado una competencia de [Kaggle](https://www.kaggle.com/competitions/histopathologic-cancer-detection/overview "Histopathologic Cancer Detection") sobre detección histopatológica del cáncer, la cual estuvo activa desde el 16/10/2018 hasta el 30/03/2019. En este proyecto se debe crear un algoritmo para identificar el cáncer de tejido metastásico en pequeños recortes de imágenes tomadas de exploraciones patológicas digitales más grandes. Los datos son una versión de los datos de referencia de PacthCamelion ([PCam](https://github.com/basveeling/pcam#readme "PatchCamelyon (PCam)"))  que a su vez son derivados de los datos de [CAMELYON16](https://camelyon16.grand-challenge.org/ "CAMELYON16 challenge") [4-7]. 
